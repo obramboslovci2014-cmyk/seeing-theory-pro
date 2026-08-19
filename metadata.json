@@ -1,0 +1,6 @@
+{
+  "name": "Seeing Theory Pro — Statistical Thinking Ecosystem",
+  "description": "Interactive, rigorous probability and statistics learning ecosystem with 18 physics-driven Canvas simulations, POE cognitive cycle, KaTeX mathematical proofs, and executable Mini-Jupyter coding sandboxes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

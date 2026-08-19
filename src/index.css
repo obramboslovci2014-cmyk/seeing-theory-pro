@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: var(--app-font-family, 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif);
+    font-size: var(--app-font-size, 16px);
+  }
+}
+
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.font-lexend {
+  font-family: 'Lexend', system-ui, sans-serif;
+}
+
+.font-nunito {
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+.font-lora {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-fira {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Custom scrollbars for clean educational dashboard look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}
